@@ -60,7 +60,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 800px;
-    gap: 35px;
+	gap: 35px;
 }
 
 .header .header-content img {
@@ -97,6 +97,110 @@ body {
 	text-align: center;
 }
 
-.header .header-content .header-btn:hover{
-    cursor: pointer;
+.header .header-content .header-btn:hover {
+	cursor: pointer;
+}
+
+/* why web development sectio */
+.why-web-dev {
+	padding: 80px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	border-radius: 16px;
+	background: rgba(13, 19, 33, 0.02);
+	padding: 80px 97px 80px 97px;
+	margin: 80px;
+}
+
+.why-web-dev .why-web-dev-title {
+	color: rgb(13, 19, 33);
+	font-size: 32px;
+	font-weight: 800;
+	line-height: 37px;
+	text-align: center;
+}
+
+.why-web-dev .why-web-dev-content {
+	color: rgb(13, 19, 33);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: center;
+}
+
+.info-box-container {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.info-box-1 {
+	border-radius: 16px;
+	background: linear-gradient(
+		90deg,
+		rgb(255, 255, 255),
+		rgba(255, 255, 255, 0) 100%
+	);
+	padding: 48px;
+	display: flex;
+	gap: 150px;
+}
+
+.info-box-1 .info-box-1-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 15px;
+	align-items: flex-start;
+}
+
+.info-title {
+	color: rgba(13, 19, 33, 0.7);
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 36px;
+	text-align: left;
+}
+
+.info-brn {
+	color: rgb(13, 19, 33);
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 23px;
+	text-align: center;
+	box-sizing: border-box;
+	border: 1px solid rgb(13, 19, 33);
+	opacity: 0.7;
+	padding: 15px 25px;
+	display: inline-block;
+}
+
+.info-description {
+	color: rgb(13, 19, 33);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: left;
+}
+.info-box-2 {
+	border-radius: 16px;
+	background: linear-gradient(
+		270deg,
+		rgb(255, 255, 255),
+		rgba(255, 255, 255, 0) 100%
+	);
+	padding: 48px;
+	display: flex;
+	gap: 100px;
+}
+
+.info-box-2 .info-box-2-content{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 15px;
+	align-items: flex-start;
 }
