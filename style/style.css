@@ -448,22 +448,31 @@ body {
 	line-height: 26px;
 	text-align: center;
 }
+
+.support .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-end;
+    gap: 10px;
+}
 .support .text-input {
-	padding: 19px;
+	padding: 22px;
 	width: 550px;
 	color: #000;
 	border-radius: 10px;
+    border: none;
 }
 
 .support .submit-button {
-	padding: 16px 25px;
+	padding: 17px 25px;
 	border-radius: 10px;
 	color: rgb(13, 19, 33);
 	font-size: 20px;
 	line-height: 22px;
 	font-weight: 600;
 	text-align: center;
-	margin-top: 5px;
+    border: none;
 }
 
 /* footer section design */
