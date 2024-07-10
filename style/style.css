@@ -197,10 +197,47 @@ body {
 	gap: 100px;
 }
 
-.info-box-2 .info-box-2-content{
-    display: flex;
+.info-box-2 .info-box-2-content {
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	gap: 15px;
 	align-items: flex-start;
+}
+
+/* inspiration design */
+.inspiration {
+	padding: 80px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 25px;
+}
+
+.inspiration .inspiration-title {
+	color: rgb(13, 19, 33);
+	font-size: 32px;
+	font-weight: 800;
+	line-height: 37px;
+	text-align: center;
+}
+
+.inspiration .inspiration-description {
+	color: rgb(13, 19, 33);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: center;
+}
+
+.inspiration .inspiration-video {
+	padding: 30px;
+	box-sizing: border-box;
+	border: 1px solid rgba(13, 19, 33, 0.2);
+	border-radius: 16px;
+}
+
+.inspiration .inspiration-video iframe{
+    border-radius: 16px;
 }
