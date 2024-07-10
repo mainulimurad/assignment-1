@@ -15,6 +15,8 @@ body {
 	margin: 0 auto;
 }
 
+
+
 /* nav bar design */
 .nav-bar {
 	padding: 40px 0;
@@ -103,7 +105,7 @@ body {
 
 /* why web development sectio */
 .why-web-dev {
-	padding: 80px 0;
+	padding: 80px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -111,8 +113,7 @@ body {
 	gap: 20px;
 	border-radius: 16px;
 	background: rgba(13, 19, 33, 0.02);
-	padding: 80px 97px 80px 97px;
-	margin: 80px;
+    margin-top: 80px;
 }
 
 .why-web-dev .why-web-dev-title {
