@@ -1,16 +1,102 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+	margin: 0;
+	padding: 0;
 }
 
-body{
-    font-family: "Azeret Mono", monospace;
+body {
+	font-family: "Azeret Mono", monospace;
 }
 
 /* shared style */
-.container{
-    max-width: 1300px;
-    margin: 0 auto;
+.container {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+/* nav bar design */
+.nav-bar {
+	padding: 40px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-bar .logo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.nav-bar .logo-text {
+	font-size: 28px;
+	line-height: 33px;
+}
+
+.nav-bar .cv-download-button {
+	padding: 17px 24px 17px 24px;
+	color: rgb(13, 19, 33);
+	font-family: Azeret Mono;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 23px;
+	background-color: #fff;
+	border: 1px solid rgb(13, 19, 33);
+	border-radius: 8px;
+}
+
+/* header section design */
+.header {
+	background: url(../assets/Hero-bg.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 800px;
+}
+
+.header .header-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 800px;
+    gap: 35px;
+}
+
+.header .header-content img {
+	height: 241px;
+	width: 241px;
+}
+
+.header .header-content .header-title {
+	color: rgb(13, 19, 33);
+	font-family: Azeret Mono;
+	font-size: 48px;
+	font-weight: 800;
+	line-height: 68px;
+	letter-spacing: 0%;
+	text-align: center;
+}
+
+.header .header-content .header-description {
+	color: rgb(13, 19, 33);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: center;
+}
+
+.header .header-content .header-btn {
+	padding: 21px 24px 21px 24px;
+	border-radius: 8px;
+	background: rgb(13, 19, 33);
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 23px;
+	text-align: center;
+}
+
+.header .header-content .header-btn:hover{
+    cursor: pointer;
 }
