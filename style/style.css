@@ -207,7 +207,7 @@ body {
 
 /* inspiration design */
 .inspiration {
-	padding: 80px 0;
+	padding: 60px 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -238,6 +238,180 @@ body {
 	border-radius: 16px;
 }
 
-.inspiration .inspiration-video iframe{
-    border-radius: 16px;
+.inspiration .inspiration-video iframe {
+	border-radius: 16px;
+}
+
+/* current target design */
+.my-current-target {
+	padding: 40px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.my-current-target .my-current-target-title {
+	color: rgb(13, 19, 33);
+	font-size: 32px;
+	font-weight: 800;
+	line-height: 37px;
+	text-align: center;
+}
+
+.my-current-target .my-current-target-description {
+	color: rgb(13, 19, 33);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: center;
+}
+
+.my-current-target .taget-box-container {
+	display: flex;
+	gap: 35px;
+}
+
+.my-current-target .taget-box-container .taget-title {
+	color: rgb(13, 19, 33);
+	font-family: Azeret Mono;
+	font-size: 24px;
+	font-weight: 800;
+	line-height: 36px;
+	letter-spacing: 0%;
+	text-align: left;
+}
+
+.my-current-target .taget-box-container .target-description {
+	color: rgb(13, 19, 33);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: left;
+}
+
+.my-current-target .taget-box-container .target-btn {
+	color: rgb(13, 19, 33);
+	font-size: 16px;
+	background-color: #fff;
+	border: none;
+	text-decoration: underline;
+}
+
+.my-current-target .taget-box-container .target-btn:hover {
+	cursor: pointer;
+}
+
+.my-current-target .taget-box-container .target-box-1 {
+	border-radius: 16px;
+	background: rgba(255, 76, 30, 0.05);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 40px;
+	gap: 15px;
+}
+
+.my-current-target .taget-box-container .target-box-2 {
+	border-radius: 16px;
+	background: rgba(0, 76, 232, 0.05);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 40px;
+	gap: 15px;
+}
+
+.my-current-target .taget-box-container .target-box-3 {
+	border-radius: 16px;
+	background: rgba(255, 223, 0, 0.05);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 40px;
+	gap: 15px;
+}
+
+/* next target design */
+.next-target {
+	padding: 60px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 25px;
+}
+
+.next-target .my-next-target-title {
+	color: rgb(13, 19, 33);
+	font-size: 32px;
+	font-weight: 800;
+	line-height: 37px;
+	text-align: center;
+}
+
+.next-target .my-next-target-description {
+	color: rgb(13, 19, 33);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: center;
+}
+
+.next-target .next-target-box-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 25px;
+}
+
+.next-target .next-target-box-container .next-target-box {
+	box-sizing: border-box;
+	border: 1px solid rgba(13, 19, 33, 0.15);
+	border-radius: 16px;
+	background: rgb(255, 255, 255);
+	padding: 45px;
+	display: flex;
+}
+
+.next-target .next-target-box-container .next-target-image-container {
+	width: 190px;
+}
+
+.next-target .next-target-box-container .next-target-box-content-container {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.next-target .next-target-box-content-container .taget-title {
+	color: rgb(13, 19, 33);
+	font-size: 24px;
+	font-weight: 800;
+	line-height: 36px;
+	text-align: left;
+}
+
+.next-target .next-target-box-content-container .target-description{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+}
+
+.next-target .next-target-box-content-container .target-btn{
+    color: rgb(13, 19, 33);
+	font-size: 16px;
+	background-color: #fff;
+	border: none;
+	text-decoration: underline;
+}
+
+.next-target .next-target-box-content-container .target-btn:hover{
+    cursor: pointer;
 }
